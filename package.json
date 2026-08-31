@@ -1,0 +1,23 @@
+{
+  "name": "suzhou-drive",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "node --import tsx --test src/**/*.test.ts",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "three": "^0.178.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/three": "^0.178.0",
+    "playwright": "^1.62.1",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.1.3"
+  }
+}
