@@ -2,9 +2,13 @@
 
 English | [简体中文](#简体中文)
 
+> **Status: closed (milestone, 2026-09-29), version 0.1.0.** The offline Suzhou
+> driving simulator reached its documented `roadmap-v2` milestone; no further
+> development is planned unless the project's inputs or goals change.
+
 An offline-first browser driving simulator using a checked-in Suzhou OSM extract. It combines lane-aware navigation, traffic signals, weather, collisions, water hazards, and procedural roadside dressing in a small Three.js/Vite app. 🚗
 
-Status: experimental, version 0.1.0. The current evidence is the local unit/build/E2E record in [`.scratch/roadmap-v2/final-verification.md`](.scratch/roadmap-v2/final-verification.md); one named-place test is skipped because the extract has no eligible fixture.
+Status: closed (milestone), version 0.1.0. The evidence is the local unit/build/E2E record in [`.scratch/roadmap-v2/final-verification.md`](.scratch/roadmap-v2/final-verification.md); one named-place test is skipped because the extract has no eligible fixture.
 
 ## Quickstart
 

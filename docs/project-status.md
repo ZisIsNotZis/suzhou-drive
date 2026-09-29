@@ -6,7 +6,13 @@
 - Local folder: `drive`
 - Package: `suzhou-drive`
 - GitHub slug: not assigned; the existing `origin` remote is preserved but has no URL.
-- Classification: useful experimental browser simulator.
+- Classification: useful browser simulator (closed milestone).
+
+## Status
+
+Closed as a milestone (2026-09-29). The offline Suzhou driving simulator
+reached its documented `roadmap-v2` 0.1.0 milestone; no active development is
+planned unless the project's inputs or goals change.
 
 ## Evidence
 
@@ -16,6 +22,8 @@ The 2026-08-25 roadmap record reports 40 unit tests, a successful build, and 25 
 
 The repository is not being uploaded or renamed in this task. The software uses AGPL-3.0-only because no prior license decision existed. The OSM extract remains third-party data and needs its required attribution/license treatment before redistribution.
 
-## Next decision
+## Deferred
 
-Add an eligible named-place fixture and collect target-hardware FPS/memory measurements only if the current slice earns further investment. Bilibili and arXiv are out of scope.
+An eligible named-place fixture and target-hardware FPS/memory measurements were
+left undone; they would only be worth doing if the slice earns further
+investment. Bilibili and arXiv are out of scope.
