@@ -13,12 +13,12 @@ Make the Suzhou driving simulator more useful as a navigation-oriented driving g
 
 ## Final verification (2026-08-25)
 
-- Unit suite: 40 passed, 0 failed, 0 skipped after navigation/weather completion. [Exact output](verification-artifacts/npm-test.final.log)
-- Build: passed; existing Vite chunk-size warning only. [Exact output](verification-artifacts/npm-build.final.log)
+- Unit suite: 40 passed, 0 failed, 0 skipped after navigation/weather completion. The captured log was not retained in the repository; the count is also recorded in [final-verification.md](final-verification.md) and the issue trackers.
+- Build: passed; existing Vite chunk-size warning only. The captured log was not retained in the repository.
 - Previous full single-worker E2E: 25 passed, 1 skipped, 0 failed (26 tests collected). The focused navigation E2E now passes 2/2 after integration.
 - The one skip is `camera-bridge.spec.ts` named OSM place navigation; the current extract has no eligible matching place.
 - New roadmap E2E checks assert rendered data/behavior: marking styles, route activation/distance, lighting differences, fleet dynamics diversity and live movement. They are not selector-only checks.
-- Inspected screenshots: `/tmp/road-navigation-markings.png`, `/tmp/environment-weather.png`, `/tmp/vehicle-diversity-dynamics.png`, `/tmp/traffic-signals-signs-final.png`, `/tmp/traffic-routes.png`, and `/tmp/weather-performance.png`. No rendering failure observed; route guidance, storm fog, rain presentation, minimap, and controls are visible. Vehicle screenshot shows the stable player/traffic view, while all catalogue classes are evidenced through the debug fleet data rather than the camera composition.
+- Inspected screenshots preserved under [`docs/media/`](../../docs/media/): `road-and-traffic.png`, `navigation-route.png`, and `storm-weather.png`. No rendering failure observed; route guidance, storm fog, rain presentation, minimap, and controls are visible. Vehicle screenshot shows the stable player/traffic view, while all catalogue classes are evidenced through the debug fleet data rather than the camera composition.
 
 ## Shared integration contract
 

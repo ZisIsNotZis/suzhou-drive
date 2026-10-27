@@ -1,8 +1,17 @@
 {
   "name": "suzhou-drive",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
+  "description": "Offline-first browser driving simulator built on a checked-in Suzhou OpenStreetMap extract.",
+  "license": "AGPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZisIsNotZis/suzhou-drive.git"
+  },
   "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

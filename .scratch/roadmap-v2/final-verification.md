@@ -7,15 +7,13 @@ Repository: `/home/z/vibe/drive`
 
 ### `npm test`
 
-Exit code: 0. Result: 34 passed, 0 failed, 0 skipped.
+Exit code: 0. Result: 40 passed, 0 failed, 0 skipped.
 
-Exact captured output: [npm-test.final.log](verification-artifacts/npm-test.final.log)
+This file previously recorded 34; that was the count before the navigation/weather tests were added. The 40 count matches `map.md`, the three issue trackers, and the 40 test declarations across the six `src/*.test.ts` files. The captured log was not retained in the repository.
 
 ### `npm run build`
 
-Exit code: 0. Result: build passed. Vite emitted the existing warning that the JS chunk exceeds 500 kB; no build error.
-
-Exact captured output: [npm-build.final.log](verification-artifacts/npm-build.final.log)
+Exit code: 0. Result: build passed. Vite emitted the existing warning that the JS chunk exceeds 500 kB; no build error. The captured log was not retained in the repository.
 
 ### `npm run test:e2e -- --workers=1`
 
@@ -23,7 +21,7 @@ Exit code: 0. Result: 26 tests executed: 25 passed, 1 skipped, 0 failed. Duratio
 
 The skip is `e2e/camera-bridge.spec.ts:210`, `navigation search accepts a named OSM place`; the current offline extract has no eligible matching place. No E2E test failed in the final run.
 
-Exact captured output: [npm-e2e.final.log](verification-artifacts/npm-e2e.final.log)
+The captured log was not retained in the repository.
 
 ## Initial failure and resolution
 
@@ -39,16 +37,13 @@ The initial full E2E run had 24 passed, 1 failed, and 1 skipped. The failure was
 
 ## Screenshot inspection
 
-Screenshots were inspected with multimodal image inspection:
+Three distinct screenshots were inspected with multimodal image inspection and are preserved in the repository:
 
-- `/tmp/road-navigation-markings.png`: route line, road center marking, minimap, and guidance panel visible.
-- `/tmp/environment-weather.png`: storm fog/lighting visibly distinct; controls remain present.
-- `/tmp/vehicle-diversity-dynamics.png`: stable rendered player/traffic scene; full catalogue diversity is evidenced by debug fleet data rather than this camera framing.
-- `/tmp/traffic-signals-signs-final.png`: stable rendered map and controls visible.
-- `/tmp/traffic-routes.png`: stable rendered map and minimap visible.
-- `/tmp/weather-performance.png`: rain presentation and controls visible.
+- [`docs/media/navigation-route.png`](../../docs/media/navigation-route.png): route line, road center marking, minimap, and guidance panel visible.
+- [`docs/media/storm-weather.png`](../../docs/media/storm-weather.png): storm fog/lighting visibly distinct; controls remain present.
+- [`docs/media/road-and-traffic.png`](../../docs/media/road-and-traffic.png): stable rendered player/traffic scene with lane arrows and minimap; full catalogue diversity is evidenced by debug fleet data rather than this camera framing.
 
-No screenshot showed a rendering failure. A minor existing presentation issue is overlapping lower-left navigation/hint text in the route screenshot; it did not fail the roadmap gate and was outside the allowed root-cause files for this verification fix.
+The other `/tmp` captures listed during the run were either duplicates of these or were not retained. No screenshot showed a rendering failure. A minor presentation issue, overlapping lower-left navigation/hint text, was fixed afterwards by moving the hint into the upper-left HUD column; the preserved captures predate that change.
 
 ## Changed files in this gate
 
