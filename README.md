@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="public/logo.svg" width="104" alt="Suzhou Drive logo" />
+  <strong>English</strong> | <a href="README.zh-CN.md">简体中文</a>
 </p>
 
 <p align="center">
-  <a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a>
+  <img src="public/logo.svg" width="104" alt="Suzhou Drive logo" />
 </p>
 
 <h1 align="center">Suzhou Drive</h1>
