@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-- Replaced the `LICENSE` stub with the complete AGPL-3.0 text plus the project copyright and the OpenStreetMap data carve-out, so the file matches the license the README and `package.json` declare.
+- Replaced the `LICENSE` stub with the status of the real one: the verbatim AGPL-3.0 text followed by the project copyright and the OpenStreetMap data carve-out, so the file matches what the README and `package.json` declare and GitHub now detects `AGPL-3.0`.
 - Pinned the repository's two dates to their own sources: 0.1.0 released 2026-08-25 (`CHANGELOG.md`) and the milestone closed 2026-09-29 (`docs/project-status.md`).
 - Moved the README language switcher to the top of both files, marked the E2E counts as the recorded 0.1.0 gate and noted that the current tree declares 27 E2E tests.
 - Recorded the verified public visibility and `master` default branch in `docs/project-status.md`, and ignored Playwright's `playwright-report/` output.
