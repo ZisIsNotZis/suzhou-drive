@@ -92,7 +92,7 @@ Read [`CONTRIBUTING.md`](CONTRIBUTING.md), then [`AGENTS.md`](AGENTS.md) and the
 
 ## Roadmap
 
-**Status: closed milestone, 0.1.0 (2026-09-29).** The documented `roadmap-v2` slice is delivered; no further development is planned unless the inputs or goals change. `package.json` is the canonical version; release notes live in [`CHANGELOG.md`](CHANGELOG.md).
+**Status: closed milestone.** 0.1.0 was released on 2026-08-25 and the milestone closed on 2026-09-29; the documented `roadmap-v2` slice is delivered, and no further development is planned unless the inputs or goals change. `package.json` is the canonical version; release notes live in [`CHANGELOG.md`](CHANGELOG.md).
 
 ### Implemented
 
