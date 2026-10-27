@@ -1,24 +1,3 @@
-Suzhou Drive — https://github.com/ZisIsNotZis/suzhou-drive
-
-Copyright (C) 2026 The Suzhou Drive contributors
-
-This program is free software: you can redistribute it and/or modify it under
-the terms of the GNU Affero General Public License as published by the Free
-Software Foundation, version 3 of the License.
-
-This program is distributed in the hope that it will be useful, but WITHOUT
-ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
-details.
-
-You should have received a copy of the GNU Affero General Public License along
-with this program. If not, see <https://www.gnu.org/licenses/>.
-
-Map data in public/suzhou.osm is third-party OpenStreetMap data and is not
-covered by this license; see the README for its ODbL attribution terms.
-
--------------------------------------------------------------------------------
-
                     GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
 
@@ -680,3 +659,20 @@ specific requirements.
 if any, to sign a "copyright disclaimer" for the program, if necessary.
 For more information on this, and how to apply and follow the GNU AGPL, see
 <https://www.gnu.org/licenses/>.
+
+
+-------------------------------------------------------------------------------
+
+Suzhou Drive — https://github.com/ZisIsNotZis/suzhou-drive
+
+Copyright (C) 2026 The Suzhou Drive contributors
+
+The software in this repository is licensed under the GNU Affero General Public
+License, version 3 (AGPL-3.0-only); the text above is the complete, unmodified
+license. It is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the license text above for details.
+
+Map data in public/suzhou.osm is third-party OpenStreetMap data and is not
+covered by this license: it remains under the Open Database License (ODbL), with
+attribution to OpenStreetMap contributors, as described in README.md.
