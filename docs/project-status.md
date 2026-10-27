@@ -5,7 +5,7 @@
 - Product: Suzhou Drive
 - Local folder: `drive`
 - Package: `suzhou-drive`
-- GitHub: `ZisIsNotZis/suzhou-drive` (`origin`, SSH); repository visibility was not verified during the documentation pass.
+- GitHub: [`ZisIsNotZis/suzhou-drive`](https://github.com/ZisIsNotZis/suzhou-drive) (`origin`, SSH), public, default branch `master`.
 - Classification: useful browser simulator (closed milestone).
 
 ## Status
