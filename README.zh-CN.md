@@ -81,10 +81,10 @@ npm run dev
 npm test                                  # 40 个单元测试
 npm run build                             # tsc && vite build
 npx playwright install chromium           # 首次运行浏览器测试前执行一次
-npm run test:e2e -- --workers=1           # 26 个测试：25 通过，1 跳过
+npm run test:e2e -- --workers=1           # 0.1.0 记录的验证：25 通过，1 跳过
 ```
 
-0.1.0 记录的验证结果是：40 个单元测试通过，构建通过（Vite 仍有既有的 >500 kB 分块警告），E2E 25/26 通过。唯一跳过的是具名地点导航，因为仓库内的 OSM 数据没有可匹配的地点。结果和检查过的截图记录在 [`.scratch/roadmap-v2/final-verification.md`](.scratch/roadmap-v2/final-verification.md)。
+0.1.0 记录的验证结果（2026-08-25）是：40 个单元测试通过，构建通过（Vite 仍有既有的 >500 kB 分块警告），实际执行的 26 个 E2E 测试中 25 个通过。当前代码中共声明了 27 个 E2E 测试，需要重跑验证来刷新这个数字。唯一跳过的是具名地点导航，因为仓库内的 OSM 数据没有可匹配的地点。结果和检查过的截图记录在 [`.scratch/roadmap-v2/final-verification.md`](.scratch/roadmap-v2/final-verification.md)。
 
 ## 参与贡献
 

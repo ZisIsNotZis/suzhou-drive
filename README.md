@@ -81,10 +81,10 @@ Open <http://localhost:5173> and drive. The map is read from `public/suzhou.osm`
 npm test                                  # 40 unit tests
 npm run build                             # tsc && vite build
 npx playwright install chromium           # once, for browser tests
-npm run test:e2e -- --workers=1           # 26 tests: 25 pass, 1 skipped
+npm run test:e2e -- --workers=1           # recorded 0.1.0 gate: 25 passed, 1 skipped
 ```
 
-The recorded 0.1.0 gate reports 40 unit tests passing, a passing build with Vite's existing >500 kB chunk warning, and 25/26 E2E tests passing. The one skip is named-place navigation: the bundled extract has no eligible matching place. Results and inspected screenshots are recorded in [`.scratch/roadmap-v2/final-verification.md`](.scratch/roadmap-v2/final-verification.md).
+The recorded 0.1.0 gate (2026-08-25) reports 40 unit tests passing, a passing build with Vite's existing >500 kB chunk warning, and 25 of 26 executed E2E tests passing. The suite declares 27 E2E tests in the current tree, so rerun the gate to refresh the number. The one skip is named-place navigation: the bundled extract has no eligible matching place. Results and inspected screenshots are recorded in [`.scratch/roadmap-v2/final-verification.md`](.scratch/roadmap-v2/final-verification.md).
 
 ## How to contribute
 
